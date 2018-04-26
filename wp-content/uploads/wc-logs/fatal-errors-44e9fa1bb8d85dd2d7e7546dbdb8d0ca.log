@@ -1,0 +1,17 @@
+2018-04-19T08:16:31+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\Aladin/wp-content/uploads/wp-less,C:\xampp\htdocs\Aladin/wp-content/uploads/wp-less): The system cannot find the file specified. (code: 2) in C:\xampp\htdocs\Aladin\wp-content\plugins\wp-less\lib\Garbagecollector.class.php:47
+Stack trace:
+#0 C:\xampp\htdocs\Aladin\wp-content\plugins\wp-less\lib\Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Aladin\wp-content\plugins\wp-less\lib\Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 C:\xampp\htdocs\Aladin\wp-includes\class-wp-hook.php(286): WPLessGarbagecollector->clean()
+#3 C:\xampp\htdocs\Aladin\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Aladin\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Aladin\wp-cron.php(126): do_action_ref_array('wp-less-garbage...', Array)
+#6 {main}
+  thrown
+
+2018-04-19T08:30:23+00:00 CRITICAL Maximum execution time of 300 seconds exceeded
+
+2018-04-19T08:51:58+00:00 CRITICAL Maximum execution time of 300 seconds exceeded
+
+2018-04-24T08:09:16+00:00 CRITICAL Maximum execution time of 300 seconds exceeded
+

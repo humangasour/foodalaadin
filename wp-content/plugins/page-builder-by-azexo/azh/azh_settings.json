@@ -1,0 +1,162 @@
+{
+    "patterns": "",
+    "custom-icons-classes": "",
+    "custom-icons-css": "",
+    "container-widths": "768px:750px\r\n992px:970px\r\n1200px:1170px",
+    "tags": {
+        "general/form-container.htm": "form"
+    },
+    "child-suggestions": {
+        "ajax/entry.htm": [
+            "ajax/entry-file-meta-field.htm",
+            "ajax/entry-video-meta-field.htm",
+            "ajax/entry-meta-field.htm",
+            "ajax/entry-thumbnail.htm",
+            "ajax/entry-content.htm",
+            "ajax/entry-title.htm"
+        ],
+        "general/form-container.htm": [
+            "forms/file-field.htm",
+            "forms/checkboxes.htm",
+            "forms/input-field.htm",
+            "forms/number-range.htm",
+            "forms/hidden-field.htm",
+            "forms/dropdown-list.htm",
+            "forms/multi-select.htm",
+            "forms/radio-buttons.htm",
+            "forms/recaptcha.htm",
+            "forms/big-text-field.htm"
+        ]
+    },
+    "files_settings": {
+        "forms/input-field.htm": {
+            "order": "-10"
+        },
+        "forms/dropdown-list.htm": {
+            "order": "-9"
+        },
+        "forms/big-text-field.htm": {
+            "order": "-8"
+        },
+        "forms/multi-select.htm": {
+            "order": "-7"
+        },
+        "forms/checkboxes.htm": {
+            "order": "-6"
+        },
+        "forms/radio-buttons.htm": {
+            "order": "-5"
+        },
+        "forms/recaptcha.htm": {
+            "order": "-4"
+        },
+        "forms/file-field.htm": {
+            "order": "-3"
+        },
+        "forms/number-range.htm": {
+            "order": "-2"
+        },
+        "forms/hidden-field.htm": {
+            "order": "-1"
+        },
+        "empty rows/row.htm": {
+            "wrapper_classes": ["az-top-right-controls"],
+            "order": "1"
+        },
+        "general/text.htm": {
+            "order": "2"
+        },
+        "general/image.htm": {
+            "order": "3"
+        },
+        "general/hyperlink.htm": {
+            "wrapper_classes": ["az-top-right-controls"],
+            "order": "4"
+        },
+        "general/heading.htm": {
+            "order": "5"
+        },
+        "general/background.htm": {
+            "wrapper_classes": ["az-top-right-controls"],
+            "order": "6"
+        },
+        "general/icon.htm": {
+            "order": "7"
+        },
+        "general/button.htm": {
+            "order": "8"
+        },
+        "general/spacer.htm": {
+            "order": "9"
+        },
+        "general/separator.htm": {
+            "order": "10"
+        },
+        "general/ordered-list.htm": {
+            "order": "11"
+        },
+        "general/unordered-list.htm": {
+            "order": "12"
+        },
+        "general/table.htm": {
+            "order": "13"
+        },
+        "general/blockquote.htm": {
+            "order": "14"
+        },
+        "general/video.htm": {
+            "order": "15"
+        },
+        "general/gmap.htm": {
+            "order": "16"
+        },
+        "general/shortcode.htm": {
+            "order": "17"
+        },
+        "general/form-container.htm": {
+            "wrapper_classes": ["az-bottom-left-controls"],
+            "order": "18"
+        },
+        "general/table.htm": {
+            "order": "19"
+        },
+        "general/free-positioning.htm": {
+            "wrapper_classes": ["az-full-height"],
+            "order": "20"
+        },
+        "general/slider.htm": {
+            "wrapper_classes": ["az-top-right-controls"],
+            "order": "21"
+        },
+        "general/grid.htm": {
+            "order": "22"
+        },
+        "general/anchors-menu.htm": {
+            "order": "23"
+        },
+        "general/anchor.htm": {
+            "order": "24"
+        },
+        "general/hover-overlay.htm": {
+            "wrapper_classes": ["az-bottom-right-controls"],
+            "order": "25"
+        },
+        "general/magnific-popup.htm": {
+            "wrapper_classes": ["az-top-right-controls"],
+            "order": "26"
+        },
+        "general/modal.htm": {
+            "wrapper_classes": ["az-top-right-controls"],
+            "order": "27"
+        },
+        "general/polygone.htm": {
+            "order": "28"
+        },
+        "general/click-trigger.htm": {
+            "order": "29"
+        },
+        "general/hover-trigger.htm": {
+            "order": "30"
+        }
+    }
+}
